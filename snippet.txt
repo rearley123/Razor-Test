@@ -1,0 +1,18 @@
+<model-viewer src="Razor.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" camera-orbit="-69.51deg 64.43deg 0.296m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.006604331230389417m 0.06984353900405282m 0.005027549305481252m" data-normal="0.4792447967357804m 0.19610493295387177m 0.8554924196466254m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">ERGONOMIC HANDLE</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.00044401001417557467m 0.1270085793554567m -0.03292068704648469m" data-normal="-0.5055958595111797m 0.7086737728181348m -0.4920917704705719m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">5 BLADES FOR EXTRA CLOSE SHAVE</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.004291854692872353m 0.11376145694567535m -0.012400046138433346m" data-normal="0.42169693411410053m -0.7828996802845798m 0.4574273563846732m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">EASY BLADE HEAD EJECTION</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.0031377352007940715m 0.11917541011966092m -0.0033319470656096462m" data-normal="-0.029569894793164766m 0.23918326850161148m 0.9705240776976155m" data-visibility-attribute="visible"></button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
